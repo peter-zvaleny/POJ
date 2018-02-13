@@ -5,7 +5,7 @@ using namespace std;
 int n, m;
 const int row_max = 100;
 const int col_max = 100;
-char water[row_max][col_max+1];
+char water[row_max][col_max];
 
 
 void dfs(int y, int x){
